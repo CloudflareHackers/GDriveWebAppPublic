@@ -158,7 +158,7 @@ let chunk_size = localStorage.getItem('chunk_size');
 let refresh_token = localStorage.getItem('refreshToken');
 let service_account = localStorage.getItem('service_account');
 let access_token = localStorage.getItem('accessToken');
-let domains_list = ['https://testapp.yourworkerurl.workers.dev']
+let domains_list = ['']
 let download_domain = domains_list[Math.floor(Math.random() * domains_list.length)];
 if (access_token && access_token.length > 15) {
     document.getElementById('logout_button').style.display = 'block';
